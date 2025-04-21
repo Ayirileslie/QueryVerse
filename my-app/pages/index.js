@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { uploadPdf, askQuestion, refreshBackend } from './utils/api'; // Added refreshBackend
+import { uploadPdf, askQuestion, refreshBackend } from '../utils/api'; // Added refreshBackend
 
 export default function Home() {
   const [pdfFile, setPdfFile] = useState(null);
